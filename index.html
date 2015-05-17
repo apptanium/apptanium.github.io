@@ -2,7 +2,15 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>apptanium</title>
+    <title>Apptanium</title>
+
+    <script src="js/modernizr.custom.28137.js"></script>
+    <!--<script src="js/jquery-2.1.1.min.js"></script>-->
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/site.js"></script>
+
+    <link rel="stylesheet" media="screen" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" media="screen" type="text/css" href="css/site.css"/>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -16,10 +24,129 @@
 
 </head>
 <body>
+<div id="parallax-site-type">
+    <section>
+        <div class="parallax-one">
+            <img class="center-display" src="img/apptanium_image_white.png">
+            <h5>cloud ready apps for the enterprise</h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="block">
+            <p class="section-text">
+                Apptanium brings cloud native, cloud ready apps to the enterprise. The most common hurdle to adopting
+                a private cloud (such as Cloud Foundry) or public cloud (such as Amazon Web Services or Microsoft Azure)
+                is that enterprises have to usually re-write existing applications or create new applications from
+                scratch since most legacy applications are not cloud-native and cannot be "lifted and shifted" to the cloud.
+                The adoption of a cloud therefore becomes an expensive and time-consuming proposition.
+            </p>
+
+            <p class="section-text">
+                Apptanium creates cloud native applications that enterprises can adopt directly and start using immediately
+                in a cloud of their choice. Apptanium brings standard enterprise requrements like Catalog management,
+                Image management, and other value added applications in a cloud-ready deployment model. These apps
+                have been written with cloud-native best practices (such as 12 Factor Applications) and allow
+                enterprises to rapidly maximize their cloud investments with functioning software.
+            </p>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="parallax-two">
+            <h5>services and apps ready to deploy and use</h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="block">
+            <p class="section-text">
+                Apptanium provides services and apps through a simple licensing model that applies to your entire enterprise.
+                It allows your full development organization complete access to the service or app. It also simplifies the
+                work the ops team has to do with managing the licensing and deployment of the service or app.
+            </p>
+
+            <p class="section-text">
+                All apps and services are stateless and elastically scalable by using the appropriate horizontal scaling
+                tools available for the particular cloud environment.
+            </p>
+        </div>
+        <div class="block-product">
+            <h5 class="product-header">Cloud Data</h5>
+            <p class="product-text">
+                Apptanium Cloud Data (ACD) provides a generic data fabric backed by a cloud of your choice.
+                For on-prem clouds, ACD can use HBase, and for public clouds, ACD can use AWS S3 or Azure Data Storage, depending on the deployment platform.
+                ACD is used extensively by other Apptanium services and apps as a generic data fabric which allows those services and apps to migrate seamlessly
+                between environments.
+            </p>
+        </div>
+        <div class="block-product">
+            <h5 class="product-header">Catalog Service</h5>
+            <p class="product-text">
+                Apptanium Catalog is a cloud ready catalog management microservice that provides a simple, centrally managed API for
+                all applications. Catalog uses ACD as a storage and data fabric.
+                <br/>
+                <br/>
+                Catalog includes the ability to create products, create multiple 'flavors' of these products (e.g. color, size, texture, etc.),
+                add multi-lingual text descriptions for each item, and also control the price and region offerings.
+            </p>
+        </div>
+        <div class="block-product">
+            <h5 class="product-header">Image Service</h5>
+            <p class="product-text">
+                Apptanium Image Service is a cloud ready image management microservice that provides a unified API for
+                all image assets to be displayed across all applications. This allows for consistent representation of
+                visual assets across the various enterprise web and mobile properties.
+            </p>
+        </div>
+        <div class="block-product">
+            <h5 class="product-header">Short URL</h5>
+            <p class="product-text">
+                Apptanium Short URL (ASU) microservice is backed by ACD and provides an easy, unified endpoint for all enterprise
+                URL shortening and referencing needs. The ASU also captures analytics information for all references made to the
+                shortened links.
+                <br/>
+                <br/>
+                ASU allows enterprises to control their link assets and also gives them full ownership of their link
+                analytics data. The analytics information is available via an API and can be used to feed visualization
+                tools and dashboards.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="parallax-two">
+            <h5>contact and licensing</h5>
+        </div>
+    </section>
+
+    <section>
+        <div class="block">
+            <p>
+                Write to <b>contact@apptanium.com</b> for details on how to license, download, and use Apptanium services and apps
+            </p>
+
+        </div>
+    </section>
+
+</div>
+
+<!--
+  <table width="100%" style="border: 0;">
+      <tr>
+          <td bgcolor="black" style="align-content: center; border: 0;">
+              <div><img src="img/apptanium_image_white.png"></div>
+              <div style="color: white; font-family: Arial; font-size: 20px;">cloud ready apps for business</div>
+          </td>
+      </tr>
+
+  </table>
 <h1>welcome to apptanium</h1>
 <br/>
 next generation apps to power businesses.
 <br/>
 more info coming soon. you will like it :)
+-->
 </body>
 </html>

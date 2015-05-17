@@ -1,0 +1,103 @@
+
+
+/* Typography */
+/**************************/
+#parallax-site-type h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-site-type h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:0px; text-align:center; color:white; font-weight:500; z-index:10;}
+/*#parallax-site-type h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10;}*/
+#parallax-site-type h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-site-type h5 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:800; letter-spacing:5px; text-align: center; text-transform: uppercase; color:white;}
+#parallax-site-type p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+.bright {opacity: 1;}
+.shaded {background-color: rgba(0,0,0,0.4)}
+
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
+
+.section-header {
+    text-transform: uppercase;
+}
+
+h5.product-header {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-text {
+    text-align: justify;
+    width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-text {
+    text-align: justify;
+    width: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+
+
+/* Section - Title */
+/**************************/
+#parallax-site-type .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-site-type .title h1 {font-size:35px; letter-spacing:8px;}
+
+/* Section - Block */
+/**************************/
+#parallax-site-type .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:center;}
+#parallax-site-type .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-site-type .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+#parallax-site-type .block-product {background: #1F2C41; padding: 10px; width:600px; margin: 0 auto; margin-bottom: 50px; text-align:center; border-radius: 25px;}
+
+/* Section - Parallax */
+/**************************/
+#parallax-site-type .background-section {overflow: hidden; position: relative; width: 100%; background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-site-type .parallax-one {padding-top: 120px; padding-bottom: 120px; overflow: hidden; position: relative; width: 100%; background-image: url(../img/shutterstock_155285513_low_band.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-site-type .parallax-two {padding-top: 50px; padding-bottom: 50px; overflow: hidden; position: relative; width: 100%; background-image: url(../img/shutterstock_155285513_low.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-site-type .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(../images/gears.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+#parallax-site-type .parallax-app-loxxo {padding-top: 400px; padding-bottom: 400px; background-image: url(../images/vintage_map_115649035.jpg);}
+#parallax-site-type .parallax-app-newsbug {padding-top: 400px; padding-bottom: 400px; background-image: url(../images/newspaper_186238625.jpg);}
+
+/* Extras */
+/**************************/
+#parallax-site-type .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+#parallax-site-type .image-credit {
+    position: absolute;
+    background: rgba(0,0,0,.25);
+    color: #ccc;
+    display: inline-block;
+    font-size: 11px;
+    font-family: helvetica,sans-serif;
+    font-weight: 300;
+    padding: 5px 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+    #parallax-site-type .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+    #parallax-site-type .block {padding: 30px; width:420px;}
+    #parallax-site-type h2 {font-size:30px;}
+    #parallax-site-type .block {padding: 30px;}
+    #parallax-site-type .parallax-one, #parallax-site-type .parallax-two, #parallax-site-type .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+    #parallax-site-type .block {padding: 30px 15px; width:290px;}
+}
+
+img.center-display {display: block; margin-left: auto; margin-right: auto;}
